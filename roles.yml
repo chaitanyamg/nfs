@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: yes
+  roles:
+    - {role: ubuntu_server, when: ansible_os_family =="Debian"}
+    - {role: ubuntu_server, when: ansible_os_family =="RedHat"}

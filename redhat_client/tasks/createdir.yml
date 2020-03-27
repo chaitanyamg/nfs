@@ -1,0 +1,8 @@
+---
+- name: cretae dir
+  file:
+   dest: "{{ item }}"
+   state: directory
+  loop:
+    - /nfs
+    - /nfs/general

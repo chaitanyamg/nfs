@@ -1,2 +1,11 @@
 ---
 # tasks file for ubuntu_server
+- include_tasks: updateinhost.yml
+- include_tasks: installinnfs.yml
+- include_tasks: createdir.yml
+- include_tasks: chown.yml
+- include_tasks: template.yml
+- include_tasks: restartnfs.yml
+- include_tasks: ufw.yml
+
+

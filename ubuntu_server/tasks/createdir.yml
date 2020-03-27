@@ -1,0 +1,8 @@
+---
+- name: create dir
+  file:
+   path: "{{ item }}"
+   state: directory
+  loop:
+    - /var/nfs
+    - /var/nfs/general

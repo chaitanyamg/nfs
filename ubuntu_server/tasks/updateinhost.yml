@@ -1,0 +1,7 @@
+---
+- name: update
+  apt:
+   name: update
+  update_acche: yes
+
+  
