@@ -1,5 +1,4 @@
 ---
 - name: install client nfs
   yum:
-   name: update
-  update_cache: yes
+   update_cache: yes

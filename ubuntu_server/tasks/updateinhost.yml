@@ -1,7 +1,6 @@
 ---
 - name: update
   apt:
-   name: update
-  update_cache: yes
+   update_cache: yes
 
   
